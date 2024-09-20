@@ -10,7 +10,7 @@ public class Course
         this.name = name;
         this.credits = credits;
         this.professorName = professorName;
-    }//Course
+    }//Constructor
 
 	public String getName() {
 		return name;

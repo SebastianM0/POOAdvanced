@@ -39,4 +39,12 @@ public class Student{
 	public void setAge(int age) {
 		this.age = age;
 	}//setName
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", id=" + id + ", age=" + age + ", courseList=" + courseList + "]";
+	}
+	
+	
+	
 }//class Student
